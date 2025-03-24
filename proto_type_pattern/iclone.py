@@ -2,7 +2,7 @@ from abc import ABC, abstractmethod
 
 
 # Prototype Interface
-class ICloneable(ABC):
+class IClone(ABC):
     @abstractmethod
     def clone(self):
         pass

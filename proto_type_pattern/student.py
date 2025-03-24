@@ -1,9 +1,9 @@
 from typing import override
-from icloneable import ICloneable
+from iclone import IClone
 import copy
 
 
-class Student(ICloneable):
+class Student(IClone):
 
     def __init__(self, name: str, student_id: str):
         self.name = name
